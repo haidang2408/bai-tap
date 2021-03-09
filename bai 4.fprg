@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Administrator"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-03-09 02:38:27 PM"/>
+        <attribute name="created" value="QWRtaW5pc3RyYXRvcjtBRE1JTjsyMDIxLTAzLTA5OzAyOjM2OjQ2IFBNOzMwMjA="/>
+        <attribute name="edited" value="QWRtaW5pc3RyYXRvcjtBRE1JTjsyMDIxLTAzLTA5OzAyOjM4OjI3IFBNOzE7MzEyOQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <output expression="&quot;input the radius of the  circle&quot;" newline="True"/>
+            <input variable="x"/>
+            <comment text="the flowing the call the circle funcion using the value the user entered&#13;&#10;&#13;&#10;notice that this variable is called X while  the funcion uses'Radius'. the  value of X is passed to the funcion"/>
+            <output expression="&quot;area is&quot; &amp;circle(x)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
